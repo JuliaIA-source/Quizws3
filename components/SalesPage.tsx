@@ -29,7 +29,7 @@ const SalesPage: React.FC<SalesPageProps> = ({ onBack }) => {
   const priceRef = useRef<HTMLDivElement>(null);
 
   const handleCheckout = () => {
-    window.open('https://pay.hotmart.com/A103788679M?off=37zf0hgu&checkoutMode=10&utm_source=quizz', '_blank');
+    window.open('https://pay.hotmart.com/A103788679M?off=37zf0hgu&checkoutMode=10', '_blank');
   };
 
   const scrollToPrice = () => {
@@ -351,7 +351,7 @@ const SalesPage: React.FC<SalesPageProps> = ({ onBack }) => {
             </div>
           </div>
           <button 
-            onClick={handleCheckout}
+            onClick={scrollToPrice}
             className="flex-1 py-4 bg-[#16A34A] text-white rounded-xl font-black text-base shadow-lg active:scale-95 transition-all uppercase"
           >
             QUIERO ACCEDER AHORA
