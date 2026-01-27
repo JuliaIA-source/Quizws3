@@ -25,6 +25,21 @@
   }
 }
 </script>
+<script>
+!function(w,d,c,u){
+  (w.vkPixelSales=w.vkPixelSales||{_q:[]})._q.push(['init',c]);
+  (w.vkPageViewPixel=w.vkPageViewPixel||{_q:[]})._q.push(['init',c,'page_view']);
+  ['https://cf.vkdigital.com.br/sales_pixel.js?v=56','https://cf.vkdigital.com.br/event_pageview.js'].forEach(function(src,i){
+    var s=d.createElement('script');
+    s.src=src;
+    s.async=1;
+    if(i===0) {
+      s.setAttribute('data-no-xcod-url','');
+    }
+    d.head.appendChild(s);
+  });
+}(window,document,'mJhZSxee6Mv4HuaoHlpz');
+</script>
 </head>
 <body class="antialiased">
     <div id="root"></div>
