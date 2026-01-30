@@ -41,7 +41,7 @@ const SalesPage: React.FC<SalesPageProps> = ({ onBack }) => {
       {/* 1. STICKY BAR SUPERIOR */}
       <div className="sticky top-0 z-50 bg-[#EF4444] py-3 px-4 shadow-xl text-center">
         <p className="text-white font-black text-sm md:text-base tracking-tight animate-pulse">
-          ⚠️ ATENCIÓN: Esta oferta del LOTE 3 termina en breve. Asegurá tu lugar con 95% de descuento.
+          ⚠️ ATENCIÓN: Esta oferta del LOTE 4 termina en breve. Asegurá tu lugar con 95% de descuento.
         </p>
       </div>
 
@@ -180,10 +180,10 @@ const SalesPage: React.FC<SalesPageProps> = ({ onBack }) => {
           <div className="absolute top-0 right-0 p-8 opacity-10">
             <span className="text-[200px] leading-none select-none">💸</span>
           </div>
-          <p className="text-[#FBBF24] font-black tracking-widest uppercase mb-4">ÚLTIMOS LUGARES DEL LOTE 3</p>
+          <p className="text-[#FBBF24] font-black tracking-widest uppercase mb-4">ÚLTIMOS LUGARES DEL LOTE 4</p>
           <p className="text-gray-400 text-2xl line-through mb-1 italic">De US$ 297</p>
           <div className="flex flex-col items-center justify-center gap-1 mb-6">
-             <h2 className="text-6xl md:text-8xl font-black text-[#22C55E]">POR SOLO US$ 7</h2>
+             <h2 className="text-6xl md:text-8xl font-black text-[#22C55E]">POR SOLO US$ 8</h2>
              <p className="text-gray-400 font-medium">(Sí, menos que una hamburguesa)</p>
           </div>
 
@@ -214,10 +214,10 @@ const SalesPage: React.FC<SalesPageProps> = ({ onBack }) => {
 
           <div className="max-w-[400px] mx-auto mt-10">
             <div className="w-full h-4 bg-gray-800 rounded-full overflow-hidden mb-2">
-              <div className="h-full bg-green-500 w-[35%] transition-all duration-1000"></div>
+              <div className="h-full bg-green-500 w-[67%] transition-all duration-1000"></div>
             </div>
             <p className="text-red-500 font-black text-xs uppercase tracking-widest animate-pulse">
-              35% del lote 3 AGOTADO
+              67% del lote 4 AGOTADO
             </p>
           </div>
         </section>
@@ -330,7 +330,7 @@ const SalesPage: React.FC<SalesPageProps> = ({ onBack }) => {
             />
             <FAQItem 
               question="¿Por qué cuesta menos de US$10?" 
-              answer="Es una oferta de lanzamiento masivo para el Lote 3. Queremos que el precio no sea una excusa para que cambies tu realidad financiera."
+              answer="Es una oferta de lanzamiento masivo para el Lote 4. Queremos que el precio no sea una excusa para que cambies tu realidad financiera."
             />
             <FAQItem 
               question="¿Tengo que mostrar mi cara en los videos?" 
@@ -346,7 +346,7 @@ const SalesPage: React.FC<SalesPageProps> = ({ onBack }) => {
           <div className="flex flex-col">
             <span className="text-xs font-black text-gray-400 uppercase tracking-tighter leading-none mb-1">PRECIO FINAL</span>
             <div className="flex items-baseline gap-1">
-              <span className="text-2xl font-black text-black leading-none">US$ 7</span>
+              <span className="text-2xl font-black text-black leading-none">US$ 8</span>
               <span className="text-[10px] text-gray-500 font-bold">(95% OFF)</span>
             </div>
           </div>
